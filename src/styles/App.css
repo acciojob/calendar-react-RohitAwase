@@ -1,12 +1,44 @@
-h1 {
-    color: #27aedb;
-    text-align: center;
-    }
-    
 
-button{
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+.calendar {
+  width: 500px;
+  margin: 40px auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+button, select, input {
+  padding: 8px;
+  cursor: pointer;
+}
+
+#year {
+  padding: 8px;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 15px;
+  text-align: center;
+}
+
+th {
+  background-color: #eee;
+}
+
+td {
+  height: 25px;
 }
